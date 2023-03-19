@@ -1,4 +1,4 @@
-
+FILENAME = "Movies.txt"
 
 def write_movies(movies):
     with open(FILENAME, "w") as file:
@@ -33,7 +33,7 @@ def delete_movie(movies):
         print(f"{movie} was deleted.\n")
 
 def display_menu():
-    print("The Mvoie List program")
+    print("The Movie List program")
     print()
     print("COMMAND MENU")
     print("list - List all movies")
